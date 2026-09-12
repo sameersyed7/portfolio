@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Linux & DevOps Engineer portfolio — cloud infrastructure, Kubernetes, automation and CI/CD.">
+  <title>Sameer Syed — Linux & DevOps Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grid-bg"></div>
+  <header>
+    <nav class="nav container">
+      <a class="logo" href="#home"><span>~/</span>devops</a>
+      <div class="nav-links">
+        <a href="#about">about</a>
+        <a href="#skills">stack</a>
+        <a href="#projects">projects</a>
+        <a href="#experience">experience</a>
+        <a href="#contact">contact</a>
+      </div>
+      <a class="github-btn" href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a>
+      <button class="menu" aria-label="Menu">☰</button>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero container">
+      <div class="hero-copy">
+        <div class="terminal-label"><span class="dot"></span> SYSTEM ONLINE</div>
+        <p class="kicker">$ whoami</p>
+        <h1>Linux &amp;<br><span>DevOps</span> Engineer.</h1>
+        <p class="hero-text">I build, automate and operate reliable cloud infrastructure — from Linux systems and containers to Kubernetes platforms and CI/CD pipelines.</p>
+        <div class="actions">
+          <a class="btn primary" href="#projects">View projects <span>↓</span></a>
+          <a class="btn secondary" href="#contact">Let's connect <span>↗</span></a>
+        </div>
+      </div>
+
+      <div class="terminal-window">
+        <div class="terminal-top"><span class="traffic"><i></i><i></i><i></i></span><span>sameersyed@devops:~</span><span>●</span></div>
+        <div class="terminal-body">
+          <p><b>sameersyed@devops</b>:~$ kubectl get nodes</p>
+          <p class="green">NAME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; STATUS&nbsp;&nbsp; ROLE</p>
+          <p>gke-prod-01&nbsp;&nbsp; <span class="green">Ready</span>&nbsp;&nbsp;&nbsp; worker</p>
+          <p>gke-prod-02&nbsp;&nbsp; <span class="green">Ready</span>&nbsp;&nbsp;&nbsp; worker</p>
+          <p>gke-prod-03&nbsp;&nbsp; <span class="green">Ready</span>&nbsp;&nbsp;&nbsp; worker</p>
+          <br>
+          <p><b>sameersyed@devops</b>:~$ terraform apply</p>
+          <p class="green">Apply complete! Resources: 18 added, 0 changed, 0 destroyed.</p>
+          <br>
+          <p><b>sameersyed@devops</b>:~$ <span class="cursor">_</span></p>
+        </div>
+      </div>
+    </section>
+
+    <div class="ticker"><div>LINUX <b>•</b> KUBERNETES <b>•</b> AWS <b>•</b> GCP <b>•</b> TERRAFORM <b>•</b> ANSIBLE <b>•</b> CI/CD <b>•</b> DOCKER <b>•</b> OBSERVABILITY <b>•</b> LINUX <b>•</b> KUBERNETES <b>•</b> AWS <b>•</b> GCP <b>•</b> TERRAFORM <b>•</b> ANSIBLE <b>•</b> CI/CD <b>•</b></div></div>
+
+    <section id="about" class="section container">
+      <div class="section-tag">01 / about</div>
+      <div class="two-col">
+        <div><h2>Infrastructure that<br><em>just works.</em></h2></div>
+        <div>
+          <p class="lead">I enjoy solving the problems between code and production.</p>
+          <p>My work spans Linux administration, cloud platforms, containerization, Kubernetes, infrastructure as code, automation and monitoring. I focus on repeatable deployments, resilient systems and reducing operational toil.</p>
+          <div class="stats">
+            <div><strong>Linux</strong><span>Systems &amp; automation</span></div>
+            <div><strong>Cloud</strong><span>AWS + GCP</span></div>
+            <div><strong>K8s</strong><span>Containers &amp; platforms</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section dark">
+      <div class="container">
+        <div class="section-tag">02 / technical stack</div>
+        <div class="section-title"><h2>Tools I use to<br><em>ship reliably.</em></h2></div>
+        <div class="skill-grid">
+          <div class="skill"><span>01</span><h3>Linux</h3><p>RHEL · Ubuntu · Bash · PowerShell · System administration</p></div>
+          <div class="skill"><span>02</span><h3>Containers</h3><p>Docker · Podman · Container images · Registries · Compose</p></div>
+          <div class="skill"><span>03</span><h3>Kubernetes</h3><p>Kubernetes · GKE · Anthos Service Mesh · Helm · Workloads</p></div>
+          <div class="skill"><span>04</span><h3>Cloud</h3><p>AWS · GCP · EC2 · S3 · Lambda · Glue · EMR · Cloud Run</p></div>
+          <div class="skill"><span>05</span><h3>IaC &amp; Automation</h3><p>Terraform · Ansible · CloudFormation · Python · Go</p></div>
+          <div class="skill"><span>06</span><h3>CI/CD</h3><p>Jenkins · GitHub Actions · AWS CodeBuild · Artifactory</p></div>
+          <div class="skill"><span>07</span><h3>Observability</h3><p>Prometheus · Grafana · Datadog · Dynatrace · Splunk</p></div>
+          <div class="skill"><span>08</span><h3>Version Control</h3><p>Git · GitHub · Branching · Code reviews · Release workflows</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <div class="section-tag">03 / selected projects</div>
+      <div class="section-title"><h2>Build it.<br><em>Containerize it.</em></h2><p>Real-world engineering work, presented as concise case studies.</p></div>
+
+      <div class="projects">
+        <article class="project featured">
+          <div class="project-visual docker">
+            <span class="badge">DOCKER / AWS</span>
+            <div class="architecture">
+              <div class="arch-box client">Frontend<br><small>Nginx</small></div>
+              <div class="arrow">→</div>
+              <div class="arch-box backend">Backend<br><small>Node.js :4000</small></div>
+              <div class="arrow">→</div>
+              <div class="arch-box mongo">MongoDB<br><small>Persistent volume</small></div>
+            </div>
+            <div class="terminal-mini">docker compose up -d<br><span>✔ 3 containers running</span></div>
+          </div>
+          <div class="project-info">
+            <div><span class="number">01</span><h3>GreenCart — Full-Stack Dockerization</h3><p>Containerized a React/Vite frontend and Node.js backend with MongoDB, multi-stage builds, isolated networking, health checks and persistent storage.</p></div>
+            <a href="https://github.com/sameersyed7/GreenCart" target="_blank" rel="noopener">View repository ↗</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-visual pipeline">
+            <span class="badge">CI/CD</span>
+            <div class="pipeline-flow"><b>GIT</b><i>→</i><b>BUILD</b><i>→</i><b>TEST</b><i>→</i><b>DEPLOY</b></div>
+          </div>
+          <div class="project-info"><div><span class="number">02</span><h3>Automated Delivery Pipeline</h3><p>Reusable CI/CD workflow for building, testing and deploying applications with automated quality gates.</p></div><span class="project-link">Case study ↗</span></div>
+        </article>
+
+        <article class="project">
+          <div class="project-visual k8s">
+            <span class="badge">KUBERNETES</span>
+            <div class="kube-orbit"><b>API</b><i></i><i></i><i></i><span>CLUSTER</span></div>
+          </div>
+          <div class="project-info"><div><span class="number">03</span><h3>Kubernetes Platform</h3><p>Container orchestration patterns covering deployments, services, scaling, health checks and production operations.</p></div><span class="project-link">Case study ↗</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section experience">
+      <div class="container">
+        <div class="section-tag">04 / experience</div>
+        <div class="two-col">
+          <h2>From terminal<br>to <em>production.</em></h2>
+          <div class="timeline">
+            <div class="timeline-item"><span>DEVOPS / CLOUD</span><h3>Cloud &amp; DevOps Engineering</h3><p>Designing infrastructure, automating deployments, supporting Kubernetes workloads and improving reliability across cloud environments.</p></div>
+            <div class="timeline-item"><span>AUTOMATION</span><h3>Infrastructure as Code</h3><p>Using Terraform and Ansible to turn repeatable infrastructure and configuration tasks into version-controlled automation.</p></div>
+            <div class="timeline-item"><span>OPERATIONS</span><h3>Linux &amp; Platform Operations</h3><p>Working with Linux systems, troubleshooting, scripting, monitoring and operational tooling to keep services dependable.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="command-section">
+      <div class="container command">
+        <p class="section-tag">05 / current focus</p>
+        <h2>Always learning.<br><span>Always automating.</span></h2>
+        <div class="command-line"><span>$</span> echo "make it reproducible"</div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container contact-inner">
+        <div class="section-tag">06 / contact</div>
+        <h2>Let's build something<br><em>reliable.</em></h2>
+        <p>Open to DevOps, Linux, Cloud and Platform Engineering opportunities.</p>
+        <div class="contact-actions">
+
+          <a class="btn primary" href="mailto:syed81826@gmail.com">syed81826@gmail.com ↗</a>
+          <a class="btn secondary" href="https://github.com/sameersyed7/" target="_blank" rel="noopener">GitHub ↗</a>
+          <a class="btn secondary" href="https://www.linkedin.com/in/syed-sameer-5bb54a2a0/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <span>© 2026 Sameer Syed</span>
+    <span>Linux • DevOps • Cloud • Automation</span>
+    <a href="#home">↑ Back to top</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
